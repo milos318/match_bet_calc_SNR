@@ -5,9 +5,9 @@ def get_positive_float(prompt):
             if value >= 0:
                 return value
             else:
-                print("❌ Value must be zero or greater.")
+                print("Value must be zero or greater.")
         except ValueError:
-            print("❌ Invalid input. Please enter a number.")
+            print("Invalid input. Please enter a number.")
 
 
 def calculate_net_profits(back_stake, back_odds, lay_odds, back_comm, lay_comm, lay_stake):
